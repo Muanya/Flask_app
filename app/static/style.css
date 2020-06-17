@@ -1,0 +1,16 @@
+.navbar+.jumbotron {
+        margin-top: -20px
+    }
+
+
+.jumbotron {
+    background: #191970;
+    color: white;
+    padding-bottom: 50px
+}
+
+.jumbotron p h1 {
+        color: #d9ccee;
+        max-width: 75%;
+        margin: 1em auto 2em
+    }

@@ -4,8 +4,9 @@ from app import app
 
 @app.route('/')
 def index():
-	return "Hello World! This is my first deployed app"
+	return render_template('index.html')
 
-@app.route('/<name>')
+
+@app.route('/about')
 def about():
-	return "Hello " + name;
+	return render_template('about.html')

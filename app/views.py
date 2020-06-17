@@ -4,7 +4,7 @@ from app import app
 
 @app.route('/')
 def index():
-	return render_template('index.html')
+	return "Hello World! This is my first deployed app"
 
 @app.route('/<name>')
 def about():
